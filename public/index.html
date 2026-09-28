@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>FollowThrough — meeting commitments, verified</title>
+  <meta name="description" content="Turn meeting notes into drafted deliverables, each checked by a separate AI verifier against the source line." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <h1>Follow<span>Through</span></h1>
+    <p class="tag">Meetings end with commitments that quietly die. Paste the notes; get a drafted
+      deliverable for each — and a <strong>separate verifier</strong> that checks every draft
+      against the exact source line before you trust it.</p>
+  </header>
+
+  <main>
+    <section class="input">
+      <div class="toolbar">
+        <button id="sample1-btn" class="ghost" type="button">Load sample: standup</button>
+        <button id="sample2-btn" class="ghost" type="button">Load sample: kickoff</button>
+        <span id="sample-name" class="chip" aria-live="polite"></span>
+        <span class="spacer"></span>
+        <span class="model">model: <code id="model-name">…</code></span>
+      </div>
+      <label for="notes" class="sr-only">Meeting notes or task brief</label>
+      <textarea id="notes" rows="10" placeholder="Paste meeting notes or a task brief here, then press Run (or Ctrl/Cmd+Enter)…"></textarea>
+      <div class="actions">
+        <button id="run-btn" type="button" class="primary">Run</button>
+        <button id="export-btn" type="button" class="ghost" disabled>Export receipt (.md)</button>
+        <span id="status" class="status" role="status" aria-live="polite"></span>
+      </div>
+    </section>
+
+    <section class="output">
+      <div id="summary" class="summary" aria-live="polite"></div>
+      <div id="receipt" class="receipt"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Runs entirely in your browser on Firebase Hosting. Gemini is brokered by Firebase AI Logic
+      on the free tier — no server, no API key in the page. Built during the AI Builder Cup 2026.</p>
+  </footer>
+
+  <script type="module" src="app.js?v=8"></script>
+</body>
+</html>

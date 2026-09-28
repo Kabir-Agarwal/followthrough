@@ -1,0 +1,10 @@
+Project kickoff — Helios migration
+
+Attendees: Dana (PM), Raj (backend), Lena (design), Sam (data)
+
+Decisions and next steps:
+1. Raj will stand up the staging environment and share the URL with the team by Sept 30.
+2. Lena committed to delivering the first dashboard mockups by next Wednesday for review.
+3. Sam agreed to export the legacy usage data and hand it to Raj by Friday so backend can start the import.
+4. Dana will book the weekly sync and circulate the agenda by Monday morning.
+5. We might want a load test later, but we parked that decision.

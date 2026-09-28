@@ -1,0 +1,4 @@
+Adversarial check — the notes below are the ground truth.
+
+- Marcus will fix the failing checkout test and open a PR by end of week.
+- Priya will send the pricing deck to the sales team by Thursday.

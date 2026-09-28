@@ -1,0 +1,8 @@
+Team standup — Tuesday
+
+- Priya said she'll send the revised pricing deck to the sales team by Thursday.
+- We discussed the flaky checkout test. Marcus agreed to fix the failing checkout test and open a PR by end of week.
+- Aisha will write up the incident post-mortem for last Friday's outage and share it in #eng before the next standup.
+- Someone should probably look at the onboarding drop-off, but no one owned it.
+- Tom volunteered to schedule the Q3 planning meeting and send invites to the leads by tomorrow.
+- General agreement that the docs are out of date.
